@@ -1,0 +1,29 @@
+.plan1, .plan2, .plan3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: .8;
+}
+.plan1:hover{
+    opacity: 1;
+}
+.plan2:hover{
+    opacity: 1;
+}
+.plan3:hover{
+    opacity: 1;
+}
+.plansScreen__plan button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+}
+.plansScreen__plan h5{
+    font-size: 1.3rem;
+}
+.plansScreen__plan h6{
+    font-size: .8rem;
+}
